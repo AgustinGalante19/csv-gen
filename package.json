@@ -1,13 +1,17 @@
 {
-  "name": "csv-gen",
-  "version": "1.0.0",
-  "description": "",
+  "name": "csv-gen-agustin",
+  "version": "0.0.1",
+  "description": "modlue to export an array to csv",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "Custom CSV",
+    "CSV Generator",
+    "CSV"
+  ],
+  "author": "Agustin Galante",
   "license": "ISC"
 }
