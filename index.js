@@ -2,7 +2,6 @@
  * @param {object} data Data will become the csv
  * @param {object} config this config let yo personalize how to generate te csv (filename, includeHeaders, separator, etc..)
  */
-
 export default function generateCSV(
   { filename, includeHeaders, includeTitle, title, separator, qtLineBreak },
   data
@@ -27,6 +26,6 @@ export default function generateCSV(
     return values.join(separator);
   });
   textToWrite += rows.join("\n");
-  /* writeFileSync(`./temp/${filename}.csv`, textToWrite, { encoding: "utf-8" }); */
-  return { filename: `${filename}.csv` | "data.csv", content: textToWrite };
+  const resultFileName = filename ? `${filename}.csv` : "data.csv";
+  return { filename: resultFileName, content: textToWrite };
 }
