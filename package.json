@@ -13,5 +13,8 @@
     "CSV"
   ],
   "author": "Agustin Galante",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
 }
