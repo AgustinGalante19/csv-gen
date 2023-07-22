@@ -1,6 +1,6 @@
 {
   "name": "csv-gen-agustin",
-  "version": "0.0.1",
+  "version": "0.1.2",
   "description": "modlue to export an array to csv",
   "main": "index.js",
   "type": "module",
